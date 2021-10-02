@@ -20,17 +20,31 @@ Author: Thomas Fowler
 
 --------------------------------------------
 
-## **Cloning a Virtual Machine**
+### **Cloning a Virtual Machine**
 
 In earlier lessons, virtualization is described as emulating a physical
 machine in software. Since a virtual machine is software-based, they
-have the inherent capability of being replicated or cloned.
+have the inherent capability of being replicated or cloned. The clone
+from a virtual machine is virtually identical in every way, except for
+some implementation-specific or user-defined settings when cloning.
 
 This means that once a virtual machine is provisioned and configured to
 a user's specification, it can be cloned and reprovisioned again as
 its own unique instance. This can also include uniqueness at the
 hardware level. For instance, the cloned virtual machine can have its
-own unique MAC address on its network adapter(s). As a result, if for
-example, a virtual machine is cloned three times, each having its own
-unique MAC address, from a networking perspective each clone
-appears as a separate physical machine on the network.
+own unique MAC address on its network adapter(s). As a result, if a
+virtual machine is cloned three times, each having its own unique MAC
+address, from a networking perspective each clone appears as a separate
+physical machine on the network.
+
+### **Clone Types**
+
+* Full Clone
+
+* Linked Clone
+
+--------------------------------------------
+
+### **Considerations for Different Clone Types**
+
+--------------------------------------------
