@@ -73,4 +73,3 @@ When cloning virtual machines in VirtualBox, an option exists to generate
 new MAC Addresses for the clone's network adapters. This is suitable for
 most scenarios, as _not_ generating new MAC addresses for a clone's
 network adapters would make it appear as another machine on the network.
-
