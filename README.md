@@ -1,10 +1,10 @@
-# **Cloning Virtual Machines in Virtual Box**
+# **Cloning Virtual Machines in VirtualBox**
 
 Course: DevOps
 
 Mod: Week 1
 
-Topic: Cloning Virtual Machines
+Topic: Cloning Virtual Machines in VirtualBox
 
 Amount of time: 1.5 hours
 
@@ -20,7 +20,7 @@ Author: Thomas Fowler
 
 --------------------------------------------
 
-### **Cloning a Virtual Machine**
+### **Cloning a Virtual Machine in VirtualBox**
 
 In earlier lessons, virtualization is described as emulating a physical
 machine in software. Since a virtual machine is software-based, they
