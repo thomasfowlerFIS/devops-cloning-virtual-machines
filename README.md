@@ -1,4 +1,4 @@
-# **Cloning Virtual Machines**
+# **Cloning Virtual Machines in Virtual Box**
 
 Course: DevOps
 
@@ -39,9 +39,11 @@ physical machine on the network.
 
 ### **Clone Types**
 
-* Full Clone
+When cloning a virtual machine in Virtual Box
 
-* Linked Clone
+#### **Full Clone**
+
+#### **Linked Clone**
 
 --------------------------------------------
 
