@@ -39,14 +39,38 @@ physical machine on the network.
 
 ### **Clone Types**
 
-When cloning a virtual machine in Virtual Box
+When cloning a virtual machine in Virtual Box there are two types to select
+from: a full clone or a linked clone. Full clones are exact copies of the
+original or source virtual machine, with the exception that their storage
+volumes are unique. Linked clones on the otherhand are exact copies of the
+source VM, except they share the same storage volume.
+
+--------------------------------------------
 
 #### **Full Clone**
 
+Not only do full clones use their own independent disk images, they also
+copy _all_ disk dependencies from the source. Full clones can operate
+completely independently of the source VM and include all previous
+snapshots of the source VM before the source VM's current state.
+
+--------------------------------------------
+
 #### **Linked Clone**
+
+When cloning a VM as a linked clone, the cloned VM shares the source VM's
+disk image. This clone type is typical given the lack of extra disk usage
+on the host machine's storage. While this is typically beneficial keeping
+the host disk's usage down, as the number of clones sharing the same
+virtual disk image increases, the faster the rate at which the shared
+disk image's capacity diminishes.
 
 --------------------------------------------
 
 ### **Considerations for Different Clone Types**
 
---------------------------------------------
+When cloning virtual machines in VirtualBox, an option exists to generate
+new MAC Addresses for the clone's network adapters. This is suitable for
+most scenarios, as _not_ generating new MAC addresses for a clone's
+network adapters would make it appear as another machine on the network.
+
